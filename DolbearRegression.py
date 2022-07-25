@@ -60,7 +60,7 @@ def fit_and_plot(data, filter, filter_value, purpose):
 
 if __name__ == "__main__":
     # load and preprocess
-    crickets_data = pd.read_csv("crickets_chirp_o2.csv")
+    crickets_data = pd.read_csv("crickets_chirp.csv")
 
     # fit_and_plot(crickets_data, "Spectrogram", 1, "Dolbear")
     # fit_and_plot(crickets_data, "Spectrogram",2, "Dolbear")
